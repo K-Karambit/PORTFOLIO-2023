@@ -130,21 +130,6 @@ nav {
   padding: 5rem;
 }
 
-.project1 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  border: 1px solid #7a7a7a;
-  padding: 1rem;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.project1:hover {
-  transform: scale(1.02);
-}
-
 .projectImage {
   width: 60%;
   height: auto;
@@ -205,6 +190,21 @@ nav {
   color: #ba2649;
 }
 
+.project1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #7a7a7a;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.project1:hover {
+  transform: scale(1.02);
+}
+
 /* End of Project1 */
 .project2 {
   width: 100%;
@@ -239,6 +239,23 @@ nav {
   transform: scale(1.02);
 }
 
+/* End of Project3 */
+.project4 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #7a7a7a;
+  padding: 1rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.project4:hover {
+  transform: scale(1.02);
+}
+
 @media (min-width: 640px) and (max-width: 720px) {
   .skillsContainer-ul {
     gap: 0.5rem;
@@ -261,13 +278,16 @@ nav {
     padding: 2rem;
   }
 
-  .project1{
+  .project1 {
     flex-direction: column;
   }
-  .project2{
+  .project2 {
     flex-direction: column;
   }
-  .project3{
+  .project3 {
+    flex-direction: column;
+  }
+  .project4 {
     flex-direction: column;
   }
 
@@ -278,13 +298,16 @@ nav {
 }
 
 @media (min-width: 721px) and (max-width: 1024px) {
-  .project1{
+  .project1 {
     flex-direction: column;
   }
-  .project2{
+  .project2 {
     flex-direction: column;
   }
-  .project3{
+  .project3 {
+    flex-direction: column;
+  }
+  .project4 {
     flex-direction: column;
   }
 
