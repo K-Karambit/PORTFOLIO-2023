@@ -273,6 +273,22 @@ nav {
   transform: scale(1.02);
 }
 
+.project6 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #7a7a7a;
+  padding: 1rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.project6:hover {
+  transform: scale(1.02);
+}
+
 @media (min-width: 640px) and (max-width: 720px) {
   .skillsContainer-ul {
     gap: 0.5rem;
@@ -311,6 +327,9 @@ nav {
   .project5 {
     flex-direction: column;
   }
+  .project6 {
+    flex-direction: column;
+  }
 
   .projectImage {
     width: 100%;
@@ -332,6 +351,9 @@ nav {
     flex-direction: column;
   }
   .project5 {
+    flex-direction: column;
+  }
+  .project6 {
     flex-direction: column;
   }
 
